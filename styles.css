@@ -47,3 +47,52 @@ footer {
   padding: 15px;
   font-size: 14px;
 }
+
+form#order-form {
+  background-color: #fff;
+  padding: 16px;
+  margin-top: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+}
+
+form#order-form label {
+  font-weight: bold;
+  display: block;
+  margin-top: 10px;
+}
+
+form#order-form input,
+form#order-form textarea {
+  width: 100%;
+  padding: 8px 10px;
+  margin-top: 6px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+form#order-form button {
+  margin-top: 15px;
+  padding: 10px 16px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+form#order-form button:hover {
+  background-color: #d32f2f;
+}
+
+#order-confirmation {
+  background-color: #e6ffe6;
+  padding: 12px;
+  margin-top: 20px;
+  border: 1px solid #00c853;
+  border-radius: 8px;
+}

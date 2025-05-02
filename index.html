@@ -64,22 +64,38 @@
     <h3>🛒 Món đã đặt:</h3>
     <ul id="cart-list"></ul>
     <p><strong>Tổng tiền:</strong> <span id="cart-total">0</span>đ</p>
-  </div>
 
-  <footer style="background: #222; color: white; padding: 20px; text-align: center;">
-    <h3>Liên hệ</h3>
-    <p>📍 Địa chỉ: Thôn 5, Xã Hòa Lạc, Huyện Thạch Thất, TP. Hà Nội</p>
-    <p>📞 Điện thoại: 0977 238 247</p>
-    <P>📞 Điện thoại: 0374 717 859</P>
-    <p>✉️ Email: quanlinhbeo@example.com</p>
-    <p>🌐 Facebook: <a href="https://facebook.com/quanlinhbeo" style="color: #4aa3df;"
-        target="_blank">facebook.com/quanlinhbeo</a></p>
-    <p style="margin-top: 10px;">&copy; 2025 Quán ăn Linh Béo</p>
+    <h2>Thông tin đặt hàng</h2>
+    <form id="order-form">
+      <label for="name">Họ tên:</label><br />
+      <input type="text" id="name" required /><br />
 
-  </footer>
+      <label for="phone">Số điện thoại:</label><br />
+      <input type="tel" id="phone" required /><br />
+
+      <label for="address">Địa chỉ:</label><br />
+      <textarea id="address" required></textarea><br />
+
+      <button type="submit">Đặt hàng</button>
+    </form>
+
+    <div id="order-confirmation"></div>
 
 
-  <script src="script.js"></script>
+    <footer style="background: #222; color: white; padding: 20px; text-align: center;">
+      <h3>Liên hệ</h3>
+      <p>📍 Địa chỉ: Thôn 5, Xã Hòa Lạc, Huyện Thạch Thất, TP. Hà Nội</p>
+      <p>📞 Điện thoại: 0977 238 247</p>
+      <P>📞 Điện thoại: 0374 717 859</P>
+      <p>✉️ Email: quanlinhbeo@example.com</p>
+      <p>🌐 Facebook: <a href="https://facebook.com/quanlinhbeo" style="color: #4aa3df;"
+          target="_blank">facebook.com/quanlinhbeo</a></p>
+      <p style="margin-top: 10px;">&copy; 2025 Quán ăn Linh Béo</p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
 
 
 

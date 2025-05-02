@@ -30,3 +30,20 @@ function updateCartDisplay() {
   // Hiển thị tổng tiền
   cartTotal.textContent = total.toLocaleString();
 }
+
+document.getElementById("order-form").addEventListener("submit", function (e) {
+  e.preventDefault();
+
+  const name = document.getElementById("name").value;
+  const phone = document.getElementById("phone").value;
+  const address = document.getElementById("address").value;
+
+  const confirmation = `
+    <h3>✅ Đặt hàng thành công!</h3>
+    <p><strong>Khách hàng:</strong> ${name}</p>
+    <p><strong>SĐT:</strong> ${phone}</p>
+    <p><strong>Địa chỉ:</strong> ${address}</p>
+  `;
+
+  document.getElementById("order-confirmation").innerHTML = confirmation;
+});
