@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quán ăn Linh Béo</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <main>
+    <h2>Thực đơn</h2>
+    <div class="menu">
+      <div class="item">
+        <img src=".vscode/image/buncha.png" alt="Bún chả">
+        <h3>Bún chả</h3>
+        <p>30,000đ</p>
+        <button onclick="addToCart('Bún chả', 30000)">Thêm Bún chả</button>
+      </div>
+      <div class="item">
+        <img src=".vscode/image/bunbo.png" alt="Bún bò" />
+        <h3>Bún bò</h3>
+        <p>30,000đ</p>
+        <button onclick="addToCart('Bún bò', 30000)">Thêm Bún bò</button>
+      </div>
+      <div class="item">
+        <img src=".vscode/image/bunca.png" alt="Bún cá" />
+        <h3>Bún cá</h3>
+        <p>30,000đ</p>
+        <button onclick="addToCart('Bún cá', 30000)">Thêm Bún cá</button>
+      </div>
+      <div class="item">
+        <img src=".vscode/image/bunrieucua.png" alt="Bún riêu cua" />
+        <h3>Bún riêu</h3>
+        <p>30,000đ</p>
+        <button onclick="addToCart('Bún riêu cua', 30000)">Thêm Bún riêu cua</button>
+
+      </div>
+      <div class="item">
+        <img src=".vscode/image/comrangthapcam.png" alt="Cơm rang thập cẩm" />
+        <h3>Cơm rang thập cẩm</h3>
+        <p>30,000đ</p>
+        <button onclick="addToCart('Cơm rang thập cẩm', 30000)">Thêm Cơm rang thập cẩm</button>
+      </div>
+      <div class="item">
+        <img src=".vscode/image/comrangduabo.png" alt="Cơm rang dưa bò" />
+        <h3>Cơm rang dưa bò</h3>
+        <p>30,000</p>
+        <button onclick="addToCart('Cơm rang dưa bò', 30000)">Thêm Cơm rang dưa bò</button>
+      </div>
+      <div class="item">
+        <img src=".vscode/image/comrangduiga.png" alt="Cơm rang đùi gà" />
+        <h3>Cơm rang đùi gà</h3>
+        <p>45,000đ</p>
+        <button onclick="addToCart('Cơm rang đùi gà', 45000)">Thêm Cơm rang đùi gà</button>
+      </div>
+    </div>
+  </main>
+
+  <div id="cart-items"
+    style="background-color: white; padding: 20px; border-radius: 10px; max-width: 400px; margin: 20px auto; display: none;">
+    <h3>🛒 Món đã đặt:</h3>
+    <ul id="cart-list"></ul>
+    <p><strong>Tổng tiền:</strong> <span id="cart-total">0</span>đ</p>
+  </div>
+
+  <footer style="background: #222; color: white; padding: 20px; text-align: center;">
+    <h3>Liên hệ</h3>
+    <p>📍 Địa chỉ: Thôn 5, Xã Hòa Lạc, Huyện Thạch Thất, TP. Hà Nội</p>
+    <p>📞 Điện thoại: 0977 238 247</p>
+    <P>📞 Điện thoại: 0374 717 859</P>
+    <p>✉️ Email: quanlinhbeo@example.com</p>
+    <p>🌐 Facebook: <a href="https://facebook.com/quanlinhbeo" style="color: #4aa3df;"
+        target="_blank">facebook.com/quanlinhbeo</a></p>
+    <p style="margin-top: 10px;">&copy; 2025 Quán ăn Linh Béo</p>
+
+  </footer>
+
+
+  <script src="script.js"></script>
+
+
+
+</body>
+
+</html>
